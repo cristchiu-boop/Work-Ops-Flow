@@ -1,0 +1,13 @@
+interface:
+  display_name: Wallet Ops OS
+  short_description: 统一运营团队的问题诊断、策略制定、实验验证和复盘产出规范
+  default_prompt: 使用 $wallet-ops-os 分析当前运营问题并生成对应标准产物。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
